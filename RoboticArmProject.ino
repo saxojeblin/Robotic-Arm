@@ -1,8 +1,7 @@
 /* ---------------------------------------------
  * |                ROBOTIC ARM                |
  * |           Author: Nicholas Rubio          |
- * |              Date: 04/23/2022             |
- * |                                           |
+ * |              Date: 05/07/2022             |
  * --------------------------------------------- */
 
 /*
@@ -23,7 +22,6 @@
 
 #include "HCPCA9685.h"
 #define  I2CAdd 0x40
-
 
 /* We first want to establish each motor's number label and its limits of rotation.
  * Below is the reference number and maximum/minimum positions for each servo motor. 
