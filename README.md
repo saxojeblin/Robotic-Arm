@@ -14,6 +14,6 @@ which is connected to the Arduino. The system is powered by a 5V 2.2A battery to
 the motors for optimal performance.
 
 ### Software Work
-- The program, which is in 'RoboticArmProject.ino', controls the arm to complete a cycle of picking up an 
+- The program, which is in Robotic-Arm/ObjectMovement.ino , controls the arm to complete a cycle of picking up an 
 object and dropping it in a different location. More information can be found with in the file throughout
 the comments.
