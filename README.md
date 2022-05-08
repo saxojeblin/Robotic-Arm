@@ -6,7 +6,7 @@ Program and models for an Arduino controlled robotic arm comprised of servo moto
 - This project is an arm that is outfitted with a gripping mechanism to pick up and drop objects.
 The arm is controlled by 6 servo motors: Waist, Shoulder, Elbow, Wrist, GripperRotate and GripperClose.
 Each motor is responsible for a joint, and the arm is assembled together using custom made 3D printed 
-parts. All part models were made by me using Fusion 360.
+parts. All part models were made by me using Fusion 360 and can be found in the models section.
 
 ### Electrical Work
 - The Servos are hooked up to a PCA9685 servo motor driver. The motor driver is connected to a breadboard, 
