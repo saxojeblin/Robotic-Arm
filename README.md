@@ -13,7 +13,7 @@ The Servos are hooked up to a PCA9685 servo motor driver. The motor driver is co
 which is connected to the Arduino. The system is powered by a 5V 2.2A battery to give enough current to 
 the motors for optimal performance.
 
-###Software Work
+### Software Work
 The program, which is in 'RoboticArmProject.ino', controls the arm to complete a cycle of picking up an 
 object and dropping it in a different location. More information can be found with in the file throughout
 the comments.
