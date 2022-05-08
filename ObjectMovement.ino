@@ -4,18 +4,6 @@
  * |              Date: 05/07/2022             |
  * --------------------------------------------- */
 
-/*
- * This is the code for simple object movement for my Arudino controlled robotic arm.
- * The arm is controlled by 6 servo motors: Waist, Shoulder, Elbow, Wrist, GripperRotate and GripperClose.
- * Each motor is responsible for a joint, and the arm is assembled together using custom
- * made 3D printed parts. All part models were made by me using Fusion 360.
- * 
- * The Servos are hooked up to a servo motor driver. The motor driver is connected to a 
- * breadboard, which is connected to the Arduino.
- * I am using a 5V 2.2A battery to power the motor driver to give enough current to the 
- * motors for optimal performance.
- */
-
 /* I'm using a PCA9685 servo driver to drive the motors. In order to program the motor driver,
  * I will be using the HCPA9685.h library. Credit for the library goes to the maker.
 */
@@ -107,7 +95,6 @@ void setup()
  * reliably.
  */
  
-
 void loop() 
 {
   pickUpObject();
